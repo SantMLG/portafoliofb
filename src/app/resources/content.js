@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Fernando",
+  lastName: "Briseño",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "America/Mexico_City", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Spanish", "English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/SantMLG",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/fernando-brise%C3%B1o-milan%C3%A9s-18910a318/",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "santbwaldenw2@gmail.com",
   },
 ];
 
@@ -55,8 +55,9 @@ const home = {
   headline: <>Design engineer and builder</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I am Fernando, software engineer
+      I'm currently working at JTI, where I elaborate some software solutions for day to day problems. 
+      <br />After hours, I build my own projects.
     </>
   ),
 };
@@ -81,9 +82,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Fernando is a software engineer with a passion for building simple solutions to complex problems.
+        Actually I am working for freelancer and to build my own SaaS projects, but I am looking for a full time job.
+        Also I will like to find a way to enter to the videogames industry.
       </>
     ),
   },
@@ -92,17 +93,17 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Japan Tobacco International",
+        timeframe: "October 2023 - February 2025",
+        role: "IT Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Here at JTI I was working in the IT department, I was doing some tasks like:
+            Project Managment, Power BI, I&O Task, Support L2 and also building some 
+            automations to solve some problems.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            also work in collaboration with other areas to create some pieces of software to facilitate repetitive tasks. 
           </>,
         ],
         images: [
@@ -116,20 +117,29 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Japan Tobacco International",
+        timeframe: "March 2025 - Now",
+        role: "Infraestructure & Operations Contractor",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Here at JTI I work at I&O department, I give support to Mexico Sales force and BackOffice people 
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Support with network issues and implementations 
+          </>,
+          <>
+            Project managment in case of an implementation project
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "GHAM",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -138,12 +148,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Universidad La Salle Mexico",
+        description: <>Eng. Cybernetics and Computacional Systems</>,
       },
     ],
   },
@@ -152,27 +158,13 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: ".NET & C#",
+        description: <>Able to build solutions with .NET framework.</>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + Supabase.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -182,6 +174,16 @@ const about = {
             height: 9,
           },
         ],
+      },
+      {
+        title: "Python + Flask",
+        description: <>Building solutions and scripts that help with your problems</>,
+        // optional: leave the array empty if you don't want to display images
+      },
+      {
+        title: "Unity",
+        description: <>Able to prototype games and AR solutions.</>,
+        // optional: leave the array empty if you don't want to display images
       },
     ],
   },
